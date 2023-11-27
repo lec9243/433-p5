@@ -1,0 +1,4 @@
+(set-option :produce-models true)
+(declare-datatypes () ((Val V1 V2 V3 V4 V5 V6 V7 V8 V9)))
+(declare-fun board (Int Int) Val)
+(assert (forall (row Int) (i Int) (j Int)))
